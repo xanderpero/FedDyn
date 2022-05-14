@@ -12,7 +12,7 @@ Please install the required packages. The code is compiled with Python 3.7 depen
 
 Example code to run FedDyn and FedProx are commented out, but could be utilized after ensuring that lr_decay_per_round is properly set to 1 when not decay, and the proper rate when wanting t test decay. For a certain set of hyperparameters, code will run both a baseline non-tuned run of federated learning, denoted with hpo_method = 'hpona' for constant learning rate or hpo_method = 'decay' for a constant decay per round. The decay is implemented after 
 
-Example codes to run FedDyn as well as baseline methods (FedAvg, FedProx and SCAFFOLD) with the synthetic dataset and CIFAR10 is given in ```example_code_synthetic.py``` and ```example_code_cifar10.py```.
+Example codes to run FedDyn as well as baseline methods (FedAvg, FedProx and SCAFFOLD) with the synthetic dataset and CIFAR10 is given in ```example_code_synthetic.py``` and ```example_code_emnist.py```.
 
 ### Hyperparameter Optimization Instructions
 
